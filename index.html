@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAZE - Магазин игр</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header-menu">
+        <nav class="nav-unit">
+            <a href="index.html">Главная</a>
+        </nav>
+        <nav class="nav-unit">
+            <h1>HAZE</h1>
+        </nav>
+        <nav class="nav-unit">
+            <a href="cart.html">Корзина (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+    
+    <header>
+        <h6>Добро пожаловать в цифровой магазин игр!</h6>
+        <p>Здесь вы найдёте самые популярные и новые игры для любого настроения и компании. Открывайте для себя новинки,
+            участвуйте в акциях и пополняйте свою коллекцию!</p>
+        <br>
+    </header>
+
+    <main class="steam-section">
+        <div class="steam-title">Популярные игры</div>
+        <div class="steam-games">
+            <article class="steam-game-card" data-title="Counter-Strike: Global Offensive" data-price="1000" data-image="https://cs19.pikabu.ru/s/2025/08/28/16/fqruxnms_s0f0d105m0_1280x720.webm">
+                <video controls width="220">
+                    <source src="https://cs19.pikabu.ru/s/2025/08/28/16/fqruxnms_s0f0d105m0_1280x720.webm" type="video/webm">
+                    <source src="https://cs19.pikabu.ru/s/2025/08/28/16/fqruxnms_s0f0d105m0_1280x720.mp4" type="video/mp4">
+                    Ваш браузер не поддерживает видео.
+                </video>
+                <figure class="game-info">
+                    <div class="game-title">Counter-Strike: Global Offensive</div>
+                    <div class="game-desc">Погрузитесь в мир динамичных командных сражений! Станьте частью легендарной
+                        серии шутеров, где важна каждая секунда и каждое решение. Соревнуйтесь с игроками по всему миру,
+                        открывайте новые скины и совершенствуйте свои навыки.</div>
+                    <div class="controls-row">
+                        <button class="buy-btn" data-game="csgo">Купить</button>
+                        <audio controls>
+                            <source src="https://cs16planet.ru/uploads/sounds/ayee.mp3" type="audio/mpeg">
+                            Ваш браузер не поддерживает аудио.
+                        </audio>
+                    </div>
+                </figure>
+            </article>
+            
+            <article class="steam-game-card" data-title="Dota 2" data-price="0" data-image="https://cdn.cloudflare.steamstatic.com/steam/apps/256683643/movie480.webm">
+                <video controls width="220">
+                    <source src="https://cdn.cloudflare.steamstatic.com/steam/apps/256683643/movie480.webm" type="video/webm">
+                    <source src="https://cdn.cloudflare.steamstatic.com/steam/apps/256683643/movie480.mp4" type="video/mp4">
+                    Ваш браузер не поддерживает видео.
+                </video>
+                <figure class="game-info">
+                    <div class="game-title">Dota 2</div>
+                    <div class="game-desc">Величайшая MOBA-игра современности! Соберите команду героев, сразитесь на
+                        арене и докажите своё превосходство в стратегических баталиях. Постоянные обновления, турниры и
+                        уникальные персонажи ждут вас!</div>
+                    <div class="controls-row">
+                        <button class="buy-btn" data-game="dota2">Купить</button>
+                        <audio controls>
+                            <source src="goofy-mickey-mouse-laugh.mp3" type="audio/mpeg">
+                            Ваш браузер не поддерживает аудио.
+                        </audio>
+                    </div>
+                </figure>
+            </article>
+            
+            <article class="steam-game-card" data-title="Grand Theft Auto V" data-price="2000" data-image="https://cdn.cloudflare.steamstatic.com/steam/apps/2032890/movie480.webm">
+                <video controls width="220">
+                    <source src="https://cdn.cloudflare.steamstatic.com/steam/apps/2032890/movie480.webm" type="video/webm">
+                    <source src="https://cdn.cloudflare.steamstatic.com/steam/apps/2032890/movie480.mp4" type="video/mp4">
+                    Ваш браузер не поддерживает видео.
+                </video>
+                <figure class="game-info">
+                    <div class="game-title">Grand Theft Auto V</div>
+                    <div class="game-desc">Огромный открытый мир, насыщенный событиями и приключениями. Исследуйте
+                        Лос-Сантос, выполняйте миссии, участвуйте в гонках и создавайте свою криминальную империю вместе
+                        с друзьями в GTA Online!</div>
+                    <div class="controls-row">
+                        <button class="buy-btn" data-game="gta5">Купить</button>
+                        <audio controls>
+                            <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+                            <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+                            Ваш браузер не поддерживает аудио.
+                        </audio>
+                    </div>
+                </figure>
+            </article>
+        </div>
+    </main>
+    
+    <footer>
+        <a href="https://www.google.com" target="_blank">Поиск в Google</a>
+        <a href="contacts.html" target="_blank">Контакты</a>
+        <a href="#top">Наверх</a>
+    </footer>
+    
+    <script src="index.js"></script>
+</body>
+</html>

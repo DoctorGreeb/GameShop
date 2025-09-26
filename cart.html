@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина - HAZE</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <header class="header-menu">
+        <nav class="nav-unit">
+            <a href="index.html">Главная</a>
+        </nav>
+        <nav class="nav-unit">
+            <h1>HAZE - Корзина</h1>
+        </nav>
+        <nav class="nav-unit">
+            <a href="cart.html">Корзина (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+
+    <section class="cart-section">
+        <div class="cart-title">Корзина</div>
+        <div class="cart-items" id="cart-items-container">
+            <!-- Товары будут добавляться динамически -->
+        </div>
+        <div class="cart-total">
+            <div class="total-price">Итого: <span id="total-amount">0</span> руб.</div>
+            <button class="checkout-btn" id="checkout-btn">Оформить заказ</button>
+            <button class="clear-cart-btn" id="clear-cart-btn">Очистить корзину</button>
+        </div>
+    </section>
+    
+    <footer>
+        <a href="https://www.google.com" target="_blank">Поиск в Google</a>
+        <a href="contacts.html" target="_blank">Контакты</a>
+        <a href="index.html">Вернуться в магазин</a>
+    </footer>
+
+    <script src="cart.js"></script>
+</body>
+</html>
